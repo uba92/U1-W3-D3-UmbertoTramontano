@@ -5,13 +5,14 @@ tasksForm.addEventListener('submit', function (e) {
     const newTask = document.getElementById('tasks')
 
     const newLi = newTask.value
-    
     const newUl = document.createElement('ul')
     newUl.innerHTML = `
-        <li>${newLi}</li>
+        <li>${newLi} <button>REMOVE</button></li>
     `
 
     const savedTask = document.getElementById('saved-task')
     savedTask.appendChild(newUl)
+
+    newTask.value = ''
 
 })

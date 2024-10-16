@@ -81,4 +81,13 @@ main {
 
 #saved-task ul li {
     list-style: disc;
+    margin: 1em 0;
+}
+
+#saved-task ul li button {
+    border: none;
+    border-radius: 20px;
+    padding: 0.5em;
+    color: #dedede;
+    background-color: rgb(155, 19, 19);
 }
