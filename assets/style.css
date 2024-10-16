@@ -77,10 +77,12 @@ main {
 #saved-task {
     font-size: 0.8em;
     margin-top: 1em;
+    background-color: #95a54d;
+    border-radius: 20px;
+    padding: 1em;
 }
 
 #saved-task ul li {
-    list-style: disc;
     margin: 1em 0;
 }
 
@@ -90,4 +92,6 @@ main {
     padding: 0.5em;
     color: #dedede;
     background-color: rgb(155, 19, 19);
+    margin-left: 0.5em;
+    font-size: 0.8em;
 }
