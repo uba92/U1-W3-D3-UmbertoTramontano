@@ -11,7 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
@@ -26,9 +32,9 @@
     </header>
 
     <main>
-      <form id="tasks-list">
-        <div id="main-container">
-          <h2>To-Do-List <i class="fas fa-tasks"></i></h2>
+      <div id="main-container">
+        <h2>To-Do-List <i class="fas fa-tasks"></i></h2>
+        <form id="tasks-list">
           <label for="tasks">
             <input
               type="text"
@@ -40,8 +46,10 @@
             />
             <button>ADD</button>
           </label>
-        </div>
-      </form>
+        </form>
+       
+        <section id="saved-task"></section>
+      </div>
     </main>
     <script src="./scripts/script.js"></script>
   </body>

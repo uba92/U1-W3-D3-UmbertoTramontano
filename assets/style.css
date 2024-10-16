@@ -73,3 +73,12 @@ main {
     border-radius: 5px;
     cursor: pointer;
 }
+
+#saved-task {
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+
+#saved-task ul li {
+    list-style: disc;
+}
