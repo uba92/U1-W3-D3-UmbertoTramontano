@@ -33,6 +33,7 @@ tasksForm.addEventListener('submit', function (e) {
     const savedTask = document.getElementById('saved-task')
     savedTask.appendChild(newUl)
 
+    //reset del form dopo la validazione
     newTask.value = ''
 
 })
